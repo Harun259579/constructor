@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> user defined obj</title>
+</head>
+<body>
+	<script>
+		var employee = 
+						{
+							id: 12,
+							name:"abrar",
+							salary:30000,
+							designation: "Junior Programmer"
+						}
+		document.write(employee.id+" "+employee.name);//provide correct data
+		var emp1 = new employee();
+		document.write(emp1.id+" "+emp1.name);//dont work it bcz here type error its not a constructor
+	</script>
+
+</body>
+</html>
